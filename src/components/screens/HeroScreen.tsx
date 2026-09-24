@@ -8,7 +8,6 @@ interface ScreenProps {
 export const HeroScreen: React.FC<ScreenProps> = ({ onNext }) => {
   return (
     <div
-      data-no-advance="true"
       className="relative w-full max-w-xl mx-auto min-h-[660px] sm:min-h-[720px] md:min-h-[760px] flex flex-col items-center justify-center px-4 py-8 select-none text-center"
     >
       <style>{`
